@@ -1,0 +1,6 @@
+2026-10-31 17:03:44,457 | INFO | Task 3 OCR started
+2026-10-31 17:03:44,457 | INFO | Images directory: task3\data\images
+2026-10-31 17:03:44,457 | INFO | Ground truth CSV: task3\data\labels_ground_truth.csv
+2026-10-31 17:03:44,457 | INFO | Output directory: task3\outputs
+2026-10-31 17:03:44,457 | INFO | OCR engine: easyocr
+2026-10-31 17:03:44,458 | INFO | Use threshold preprocessing: False

@@ -1,0 +1,13 @@
+POWER TRANSFORMER NAMEPLATE
+Vrans;03MeRSLd. APEX SN: TR-IOOk-23001
+KVA RATING: 100 capacity of the translormer KVA RATING: Apparent power
+PRIMARY VOLTAGE: I1kv PRIMARY VOLTAGE (HV): High-side input vollage
+SECONDARY VOLTAGE 400 V SECONDARY VOLTAGE (LV): Lon-side oulput vollage:
+FREQUENCY: 50 Hz (requency in Hertz FREQUENCY: Operaling system
+VECTOR GROUP: Dyn11 VECTOR GROUP (Dyn1)): Winding] configuration and phase shift:
+IMPEDANCE: 4.5 % IMPEDANCE ( ): Percentage Impedance voltage drop at rated
+cuttenl:
+COOLING: ONAN COOLING (ONAN): Oll Natural Alt
+Natural cooling method
+TEMPERATURE RISE: 65 % TEMP RISE (C): Maximum allted
+Temperatere Iise above ambient texnd

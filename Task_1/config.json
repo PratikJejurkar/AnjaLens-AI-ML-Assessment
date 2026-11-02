@@ -1,0 +1,24 @@
+{
+    "zone_polygon_normalized": [
+        [
+            0.3,
+            0.4
+        ],
+        [
+            0.9,
+            0.4
+        ],
+        [
+            0.9,
+            0.9
+        ],
+        [
+            0.3,
+            0.9
+        ]
+    ],
+    "idle_rules": {
+        "pixel_distance": 30,
+        "time_seconds": 3.0
+    }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "image": "Image_1.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": null,
+    "voltage": "400",
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_2.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": "MMEKCUBR",
+    "voltage": null,
+    "manufacture_date": "2820"
+  },
+  {
+    "image": "Image_3.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": null,
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_4.png",
+    "equipment_id": "APPROXIMATE",
+    "serial_number": "311220G8",
+    "model": null,
+    "voltage": "120",
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_5.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": null,
+    "voltage": "415",
+    "manufacture_date": "2019"
+  },
+  {
+    "image": "Image_6.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": null,
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_7.png",
+    "equipment_id": "NO_094914",
+    "serial_number": "F1.15",
+    "model": null,
+    "voltage": "208-230",
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_8.png",
+    "equipment_id": null,
+    "serial_number": "5H554736-0683-MOTOR",
+    "model": null,
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_9.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": "CAP.RUN",
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_10.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": "3196",
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_11.png",
+    "equipment_id": null,
+    "serial_number": "2B8C0B",
+    "model": "CT80",
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_12.png",
+    "equipment_id": "1292804",
+    "serial_number": null,
+    "model": null,
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_13.png",
+    "equipment_id": "7.141760-027S71",
+    "serial_number": "141186M",
+    "model": null,
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_14.png",
+    "equipment_id": null,
+    "serial_number": "02816CH",
+    "model": "CABABA8AO1",
+    "voltage": "115/230",
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_15.png",
+    "equipment_id": "18261801",
+    "serial_number": "323073M",
+    "model": null,
+    "voltage": null,
+    "manufacture_date": null
+  }
+]

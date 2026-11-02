@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "question": "What is the maximum pressure for the Hydraulic Pump Model X-200?",
+        "expected_tool": null
+    },
+    {
+        "id": 2,
+        "question": "Is pump P-102 safe to restart right now?",
+        "expected_tool": "get_equipment_status"
+    },
+    {
+        "id": 3,
+        "question": "I just checked the conveyor belt tension, please log a note saying 'Tension adjusted'.",
+        "expected_tool": "log_inspection"
+    },
+    {
+        "id": 4,
+        "question": "What is the serial number of the CEO's private jet?",
+        "expected_tool": null,
+        "note": "This should trigger 'I don't know' as it's not in manuals."
+    },
+    {
+        "id": 5,
+        "question": "What PPE is required in Zone A?",
+        "expected_tool": null
+    }
+]

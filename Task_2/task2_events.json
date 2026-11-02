@@ -1,0 +1,98 @@
+[
+    {
+        "event_type": "ZONE_ENTRY",
+        "track_id": 2,
+        "timestamp": 4.99,
+        "frame_number": 299,
+        "box": [
+            582.22,
+            232.64,
+            837.87,
+            965.25
+        ]
+    },
+    {
+        "event_type": "IDLE_ALERT",
+        "track_id": 13,
+        "timestamp": 19.02,
+        "frame_number": 1140,
+        "box": [
+            357.05,
+            206.98,
+            594.64,
+            844.08
+        ]
+    },
+    {
+        "event_type": "ZONE_ENTRY",
+        "track_id": 13,
+        "timestamp": 25.98,
+        "frame_number": 1557,
+        "box": [
+            448.95,
+            206.18,
+            705.98,
+            842.17
+        ]
+    },
+    {
+        "event_type": "ZONE_ENTRY",
+        "track_id": 19,
+        "timestamp": 36.19,
+        "frame_number": 2169,
+        "box": [
+            729.1,
+            408.26,
+            953.78,
+            971.02
+        ]
+    },
+    {
+        "event_type": "ZONE_ENTRY",
+        "track_id": 24,
+        "timestamp": 38.96,
+        "frame_number": 2335,
+        "box": [
+            447.35,
+            245.28,
+            715.1,
+            807.26
+        ]
+    },
+    {
+        "event_type": "ZONE_ENTRY",
+        "track_id": 28,
+        "timestamp": 51.6,
+        "frame_number": 3093,
+        "box": [
+            476.01,
+            215.14,
+            679.59,
+            759.33
+        ]
+    },
+    {
+        "event_type": "ZONE_ENTRY",
+        "track_id": 31,
+        "timestamp": 60.44,
+        "frame_number": 3623,
+        "box": [
+            488.34,
+            311.36,
+            758.36,
+            971.25
+        ]
+    },
+    {
+        "event_type": "IDLE_ALERT",
+        "track_id": 31,
+        "timestamp": 64.16,
+        "frame_number": 3846,
+        "box": [
+            519.31,
+            272.66,
+            772.61,
+            912.0
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+MVITIPHASE DIESEL GENERATOR SE1 / POWEA
+Model MMEKcubr Serial No_ Diabela
+Rated Voltage_ Zhaldl Phase Hz
+Prime Power kW KVA
+Standby Power JOl KW KVA
+PF EXC.V BSD EXCA
+Engine kWIHP Speed K rlmin
+Dimension (LxWxH) cm
+Weight kg Date
+Notesi The GENSETS Are AccoRdED With The
+STANDARDS OF /S08528.GBIT 2820.5

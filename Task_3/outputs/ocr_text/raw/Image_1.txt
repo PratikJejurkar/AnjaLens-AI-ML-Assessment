@@ -1,0 +1,13 @@
+POWER TRANSFORMER NAMEPLATE
+APEX MEAHS O UERSLiD SN: TR-1OOK-23001
+KVA RATING: 100 IKVA RATING: Apparent power capacity of the transformer;
+PRIMARY VOLTAGE: I1kV IHigh side inpul PRImary VOLTAGE (Hv): volljge
+SECONDARY VOLTAGE: 400 V LoN-side oulput = SECONDARY VoltaGE (Lvi: voltage;
+FREQUENCY: 50 Hz frequenc} FREQUEMCY: Operating system Herz_
+VECTOR GROUP: Dyn11 Uconfiguration and phase shitt VECTOR GROUP (Dyniij: Winding
+IMPEDANCE: 4.5 % IMPEDANCE (T): Percentage Impedance voltage drop at mated
+cuttent;
+COOLING: ONAN COOLING (ONANJ: Oil Natural Alt
+Natural cooling method
+TEMPERATURE RISE: 65 % TEMP RISE ( C): Maxinuma llowed
+emperatlte 3d0y8 #mdienimten

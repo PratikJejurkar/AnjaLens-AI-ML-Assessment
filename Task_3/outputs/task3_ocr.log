@@ -1,0 +1,9 @@
+2026-11-02 08:49:43,316 | INFO | Task 3 OCR started
+2026-11-02 08:49:43,316 | INFO | Images directory: ..\data\images
+2026-11-02 08:49:43,316 | INFO | Ground truth CSV: ..\data\labels_ground_truth.csv
+2026-11-02 08:49:43,317 | INFO | Output directory: ..\outputs
+2026-11-02 08:49:43,317 | INFO | OCR engine: easyocr
+2026-11-02 08:49:43,317 | INFO | Use threshold preprocessing: False
+2026-11-02 08:49:48,142 | INFO | FakeTensor cache stats:
+2026-11-02 08:49:48,143 | INFO |   cache_hits: 0
+2026-11-02 08:49:48,143 | INFO |   cache_misses: 0

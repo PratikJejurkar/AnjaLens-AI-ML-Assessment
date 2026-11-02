@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+notepad .gitignore
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Generated OCR artifacts (keep the source images and ground-truth CSV)
+Task_3/outputs/preprocessed/
+Task_3/outputs/ocr_text/
+Task_3/outputs/task3_ocr.log
+Task_3/src/task3/outputs/
+
+# Local vector database / generated index
+Task_4/app/chroma_db/
+
+# Generated video outputs (avoid committing large rendered files)
+Task_1/output*.mp4
+Task_2/*output*.mp4
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/

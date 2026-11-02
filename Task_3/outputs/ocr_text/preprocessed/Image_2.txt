@@ -1,0 +1,12 @@
+MULTIPHASE DIESEL GENERATOR SE1
+POwEA
+Modelekcila Serial No: Aca1beoj
+Rated Voltage Zaio V Phase 80 Hz
+Prime Power Kw KVA A
+Standby Power Juia KW Ia KVA A
+PF EXCV GSU V EXCA I0 A
+Engine Kwihp Speed Hao rlmin
+Dimension (LxW*H) Kaa cm
+Weight kg Date d
+Noesi The GENSEIS Are AccoRded With UHe
+STANDARDS OF Is08528.GBI 2820.5

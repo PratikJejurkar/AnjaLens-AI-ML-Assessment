@@ -1,0 +1,122 @@
+[
+  {
+    "image": "Image_1.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": null,
+    "voltage": "400",
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_2.png",
+    "equipment_id": null,
+    "serial_number": "ACA1BEOJ",
+    "model": null,
+    "voltage": "80",
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_3.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": null,
+    "voltage": null,
+    "manufacture_date": "2007"
+  },
+  {
+    "image": "Image_4.png",
+    "equipment_id": "NO.7DD",
+    "serial_number": "OOHZTHREEPHASE11122068",
+    "model": null,
+    "voltage": "120",
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_5.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": null,
+    "voltage": "415",
+    "manufacture_date": "2019"
+  },
+  {
+    "image": "Image_6.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": null,
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_7.png",
+    "equipment_id": "094914",
+    "serial_number": "R1.15KODEDESCUSS",
+    "model": null,
+    "voltage": "208",
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_8.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": null,
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_9.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": "HZ",
+    "voltage": "50",
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_10.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": "96TS",
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_11.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": "380",
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_12.png",
+    "equipment_id": null,
+    "serial_number": null,
+    "model": null,
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_13.png",
+    "equipment_id": "441186M",
+    "serial_number": "441186M",
+    "model": null,
+    "voltage": null,
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_14.png",
+    "equipment_id": null,
+    "serial_number": "02816CH",
+    "model": "C48AB48AO1",
+    "voltage": "115/230",
+    "manufacture_date": null
+  },
+  {
+    "image": "Image_15.png",
+    "equipment_id": "B384",
+    "serial_number": "323073M",
+    "model": null,
+    "voltage": null,
+    "manufacture_date": null
+  }
+]

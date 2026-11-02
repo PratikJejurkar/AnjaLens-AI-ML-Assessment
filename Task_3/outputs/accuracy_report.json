@@ -1,0 +1,1120 @@
+{
+  "runtime": {
+    "ocr_engine": "easyocr",
+    "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "opencv": "5.0.0",
+    "num_images": 15,
+    "runtime_seconds": 110.24284076690674,
+    "preprocessing": {
+      "auto_crop_or_rectify": true,
+      "resize_if_small": true,
+      "deskew": true,
+      "denoise": true,
+      "clahe_contrast": true,
+      "adaptive_threshold": false
+    }
+  },
+  "raw": {
+    "overall_field_accuracy_including_null": 0.5066666666666667,
+    "overall_field_accuracy_non_null_gt": 0.175,
+    "total_field_comparisons": 75,
+    "correct_field_comparisons": 38,
+    "non_null_gt_field_comparisons": 40,
+    "correct_non_null_gt_field_comparisons": 7,
+    "by_field": {
+      "equipment_id": {
+        "total": 15,
+        "correct": 8,
+        "non_null_gt_total": 5,
+        "non_null_gt_correct": 0,
+        "accuracy_including_null": 0.5333333333333333,
+        "accuracy_non_null_gt": 0.0
+      },
+      "serial_number": {
+        "total": 15,
+        "correct": 4,
+        "non_null_gt_total": 14,
+        "non_null_gt_correct": 3,
+        "accuracy_including_null": 0.26666666666666666,
+        "accuracy_non_null_gt": 0.21428571428571427
+      },
+      "model": {
+        "total": 15,
+        "correct": 9,
+        "non_null_gt_total": 6,
+        "non_null_gt_correct": 1,
+        "accuracy_including_null": 0.6,
+        "accuracy_non_null_gt": 0.16666666666666666
+      },
+      "voltage": {
+        "total": 15,
+        "correct": 5,
+        "non_null_gt_total": 11,
+        "non_null_gt_correct": 2,
+        "accuracy_including_null": 0.3333333333333333,
+        "accuracy_non_null_gt": 0.18181818181818182
+      },
+      "manufacture_date": {
+        "total": 15,
+        "correct": 12,
+        "non_null_gt_total": 4,
+        "non_null_gt_correct": 1,
+        "accuracy_including_null": 0.8,
+        "accuracy_non_null_gt": 0.25
+      }
+    },
+    "serial_number_cer": {
+      "aggregate": 0.7637795275590551,
+      "mean_per_image": 0.7242063492063491,
+      "num_serials_evaluated": 14
+    },
+    "per_image": [
+      {
+        "image": "Image_1.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "TR-100K-23001",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": "11",
+            "pred": "400",
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_2.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "K22B5A15305",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": "MPK-C115P",
+            "pred": "MMEKCUBR",
+            "correct": false
+          },
+          "voltage": {
+            "gt": "230/400",
+            "pred": null,
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": "2024",
+            "pred": "2820",
+            "correct": false
+          }
+        },
+        "correct": 1,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_3.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "1LVN2070028",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "manufacture_date": {
+            "gt": "2007",
+            "pred": null,
+            "correct": false
+          }
+        },
+        "correct": 3,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_4.png",
+        "fields": {
+          "equipment_id": {
+            "gt": "1112206B",
+            "pred": "APPROXIMATE",
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "906003979",
+            "pred": "311220G8",
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": null,
+            "pred": "120",
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 2,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_5.png",
+        "fields": {
+          "equipment_id": {
+            "gt": "1LA02864SE41",
+            "pred": null,
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "2148",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": "415",
+            "pred": "415",
+            "correct": true
+          },
+          "manufacture_date": {
+            "gt": "2019",
+            "pred": "2019",
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_6.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "65B0130008",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": "230/460",
+            "pred": null,
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_7.png",
+        "fields": {
+          "equipment_id": {
+            "gt": "94914",
+            "pred": "094914",
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "37J776T859G1",
+            "pred": "F1.15",
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": "208-230/460",
+            "pred": "208-230",
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 2,
+        "total": 5,
+        "serial_number_cer": 0.9166666666666666
+      },
+      {
+        "image": "Image_8.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "SH554736-068",
+            "pred": "5H554736-0683-MOTOR",
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": "400",
+            "pred": null,
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": "2012",
+            "pred": null,
+            "correct": false
+          }
+        },
+        "correct": 2,
+        "total": 5,
+        "serial_number_cer": 0.6666666666666666
+      },
+      {
+        "image": "Image_9.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "model": {
+            "gt": null,
+            "pred": "CAP.RUN",
+            "correct": false
+          },
+          "voltage": {
+            "gt": "240",
+            "pred": null,
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5
+      },
+      {
+        "image": "Image_10.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "A752F740",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": "3196",
+            "pred": "3196",
+            "correct": true
+          },
+          "voltage": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 4,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_11.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "258C051-1",
+            "pred": "2B8C0B",
+            "correct": false
+          },
+          "model": {
+            "gt": "3180",
+            "pred": "CT80",
+            "correct": false
+          },
+          "voltage": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5,
+        "serial_number_cer": 0.5555555555555556
+      },
+      {
+        "image": "Image_12.png",
+        "fields": {
+          "equipment_id": {
+            "gt": "B865SE",
+            "pred": "1292804",
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "182083M",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": "208-230",
+            "pred": null,
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 2,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_13.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": "7.141760-027S71",
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "141186M",
+            "pred": "141186M",
+            "correct": true
+          },
+          "model": {
+            "gt": "7-141760-02",
+            "pred": null,
+            "correct": false
+          },
+          "voltage": {
+            "gt": "208-220/440",
+            "pred": null,
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 2,
+        "total": 5,
+        "serial_number_cer": 0.0
+      },
+      {
+        "image": "Image_14.png",
+        "fields": {
+          "equipment_id": {
+            "gt": "CET40ABM",
+            "pred": null,
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "02816CH",
+            "pred": "02816CH",
+            "correct": true
+          },
+          "model": {
+            "gt": "C48AB48A01",
+            "pred": "CABABA8AO1",
+            "correct": false
+          },
+          "voltage": {
+            "gt": "115/230",
+            "pred": "115/230",
+            "correct": true
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5,
+        "serial_number_cer": 0.0
+      },
+      {
+        "image": "Image_15.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": "18261801",
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "323073M",
+            "pred": "323073M",
+            "correct": true
+          },
+          "model": {
+            "gt": "7-182678-01",
+            "pred": null,
+            "correct": false
+          },
+          "voltage": {
+            "gt": "208-230",
+            "pred": null,
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 2,
+        "total": 5,
+        "serial_number_cer": 0.0
+      }
+    ]
+  },
+  "preprocessed": {
+    "overall_field_accuracy_including_null": 0.49333333333333335,
+    "overall_field_accuracy_non_null_gt": 0.15,
+    "total_field_comparisons": 75,
+    "correct_field_comparisons": 37,
+    "non_null_gt_field_comparisons": 40,
+    "correct_non_null_gt_field_comparisons": 6,
+    "by_field": {
+      "equipment_id": {
+        "total": 15,
+        "correct": 8,
+        "non_null_gt_total": 5,
+        "non_null_gt_correct": 0,
+        "accuracy_including_null": 0.5333333333333333,
+        "accuracy_non_null_gt": 0.0
+      },
+      "serial_number": {
+        "total": 15,
+        "correct": 3,
+        "non_null_gt_total": 14,
+        "non_null_gt_correct": 2,
+        "accuracy_including_null": 0.2,
+        "accuracy_non_null_gt": 0.14285714285714285
+      },
+      "model": {
+        "total": 15,
+        "correct": 8,
+        "non_null_gt_total": 6,
+        "non_null_gt_correct": 0,
+        "accuracy_including_null": 0.5333333333333333,
+        "accuracy_non_null_gt": 0.0
+      },
+      "voltage": {
+        "total": 15,
+        "correct": 5,
+        "non_null_gt_total": 11,
+        "non_null_gt_correct": 2,
+        "accuracy_including_null": 0.3333333333333333,
+        "accuracy_non_null_gt": 0.18181818181818182
+      },
+      "manufacture_date": {
+        "total": 15,
+        "correct": 13,
+        "non_null_gt_total": 4,
+        "non_null_gt_correct": 2,
+        "accuracy_including_null": 0.8666666666666667,
+        "accuracy_non_null_gt": 0.5
+      }
+    },
+    "serial_number_cer": {
+      "aggregate": 0.9606299212598425,
+      "mean_per_image": 0.9099154813440526,
+      "num_serials_evaluated": 14
+    },
+    "per_image": [
+      {
+        "image": "Image_1.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "TR-100K-23001",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": "11",
+            "pred": "400",
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_2.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "K22B5A15305",
+            "pred": "ACA1BEOJ",
+            "correct": false
+          },
+          "model": {
+            "gt": "MPK-C115P",
+            "pred": null,
+            "correct": false
+          },
+          "voltage": {
+            "gt": "230/400",
+            "pred": "80",
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": "2024",
+            "pred": null,
+            "correct": false
+          }
+        },
+        "correct": 1,
+        "total": 5,
+        "serial_number_cer": 0.8181818181818182
+      },
+      {
+        "image": "Image_3.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "1LVN2070028",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "manufacture_date": {
+            "gt": "2007",
+            "pred": "2007",
+            "correct": true
+          }
+        },
+        "correct": 4,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_4.png",
+        "fields": {
+          "equipment_id": {
+            "gt": "1112206B",
+            "pred": "7DD",
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "906003979",
+            "pred": "OOHZTHREEPHASE11122068",
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": null,
+            "pred": "120",
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 2,
+        "total": 5,
+        "serial_number_cer": 2.4444444444444446
+      },
+      {
+        "image": "Image_5.png",
+        "fields": {
+          "equipment_id": {
+            "gt": "1LA02864SE41",
+            "pred": null,
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "2148",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": "415",
+            "pred": "415",
+            "correct": true
+          },
+          "manufacture_date": {
+            "gt": "2019",
+            "pred": "2019",
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_6.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "65B0130008",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": "230/460",
+            "pred": null,
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_7.png",
+        "fields": {
+          "equipment_id": {
+            "gt": "94914",
+            "pred": "094914",
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "37J776T859G1",
+            "pred": "R1.15KODEDESCUSS",
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": "208-230/460",
+            "pred": "208",
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 2,
+        "total": 5,
+        "serial_number_cer": 1.3333333333333333
+      },
+      {
+        "image": "Image_8.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "SH554736-068",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": "400",
+            "pred": null,
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": "2012",
+            "pred": null,
+            "correct": false
+          }
+        },
+        "correct": 2,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_9.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "model": {
+            "gt": null,
+            "pred": "HZ",
+            "correct": false
+          },
+          "voltage": {
+            "gt": "240",
+            "pred": "50",
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5
+      },
+      {
+        "image": "Image_10.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "A752F740",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": "3196",
+            "pred": "96TS",
+            "correct": false
+          },
+          "voltage": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_11.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "serial_number": {
+            "gt": "258C051-1",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": "3180",
+            "pred": "380",
+            "correct": false
+          },
+          "voltage": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_12.png",
+        "fields": {
+          "equipment_id": {
+            "gt": "B865SE",
+            "pred": null,
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "182083M",
+            "pred": null,
+            "correct": false
+          },
+          "model": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          },
+          "voltage": {
+            "gt": "208-230",
+            "pred": null,
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 2,
+        "total": 5,
+        "serial_number_cer": 1.0
+      },
+      {
+        "image": "Image_13.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": "441186M",
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "141186M",
+            "pred": "441186M",
+            "correct": false
+          },
+          "model": {
+            "gt": "7-141760-02",
+            "pred": null,
+            "correct": false
+          },
+          "voltage": {
+            "gt": "208-220/440",
+            "pred": null,
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 1,
+        "total": 5,
+        "serial_number_cer": 0.14285714285714285
+      },
+      {
+        "image": "Image_14.png",
+        "fields": {
+          "equipment_id": {
+            "gt": "CET40ABM",
+            "pred": null,
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "02816CH",
+            "pred": "02816CH",
+            "correct": true
+          },
+          "model": {
+            "gt": "C48AB48A01",
+            "pred": "C48AB48AO1",
+            "correct": false
+          },
+          "voltage": {
+            "gt": "115/230",
+            "pred": "115/230",
+            "correct": true
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 3,
+        "total": 5,
+        "serial_number_cer": 0.0
+      },
+      {
+        "image": "Image_15.png",
+        "fields": {
+          "equipment_id": {
+            "gt": null,
+            "pred": "B384",
+            "correct": false
+          },
+          "serial_number": {
+            "gt": "323073M",
+            "pred": "323073M",
+            "correct": true
+          },
+          "model": {
+            "gt": "7-182678-01",
+            "pred": null,
+            "correct": false
+          },
+          "voltage": {
+            "gt": "208-230",
+            "pred": null,
+            "correct": false
+          },
+          "manufacture_date": {
+            "gt": null,
+            "pred": null,
+            "correct": true
+          }
+        },
+        "correct": 2,
+        "total": 5,
+        "serial_number_cer": 0.0
+      }
+    ]
+  }
+}
